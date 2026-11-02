@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.apc.isxc.feature"
+      label="ISX Central Feature"
+      version="1.0.0"
+      provider-name="APC"
+      plugin="com.apc.isxc.client"
+      os="macosx,win32"
+      ws="cocoa,win32"
+      nl="en"
+      arch="x86,x86_64">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="com.apc.isxc.core.ui.feature"
+         version="1.0.0"/>
+
+   <includes
+         id="com.apc.isxc.help.feature"
+         version="1.0.0"/>
+
+   <includes
+         id="com.apc.isxc.base.feature"
+         version="1.0.0"/>
+
+   <includes
+         id="org.eclipse.birt.chart"
+         version="2.5.0.v20090608-7d9J0FQCnuydxB_nZtmS1"/>
+
+   <includes
+         id="org.eclipse.birt.report.runtime"
+         version="2.5.0.v20090421-7n8z0FOToz08_30IMPrPF8L"/>
+
+   <includes
+         id="org.eclipse.birt.chart.runtime"
+         version="2.5.0.v20090402-7Z92-FNObos7qqSTZtmS1"/>
+
+   <includes
+         id="org.eclipse.gef"
+         version="3.6.2.v20110128-0100-777B381A4Bz06565376E32322"/>
+
+   <includes
+         id="org.eclipse.emf"
+         version="2.5.0.v200906151043"/>
+
+   <includes
+         id="com.lowagie.itext"
+         version="1.5.4.v20090611-2437w311A1719"/>
+
+   <requires>
+      <import feature="com.apc.isxc.core.ui.feature" version="1.0.0"/>
+      <import feature="com.apc.isxc.base.feature" version="1.0.0"/>
+   </requires>
+
+   <plugin
+         id="com.apc.isxc.client"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.settings"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.settings.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.usergroups.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.usergroups.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alert.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alert.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.settings"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alert.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alert.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.client.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.settings.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.settings.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.usergroups.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.usergroups.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.permissions.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.clipplayer"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.clipplayer.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.clipplayer.win32"
+         os="win32"
+         ws="win32"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.reports.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.reports.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.reports.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.reports.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfreechart"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jfreechart.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.firmwareUpdate.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.firmwareUpdate.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.firmwareUpdate.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.firmwareUpdate.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.widgetutils.win32"
+         os="win32"
+         ws="win32"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.ui.cwt"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.permissions.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.monitoring"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.monitoring.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.massconfig.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.massconfig.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.massconfig.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.settings.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.settings.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.maps.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.maps.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.maps.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.maps.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.customproperties.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.customproperties.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.customproperties.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.customproperties.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.cannedreports"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.device.pdf"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090326"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.device.svg"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090423"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.device.swt"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090514"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.engine"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090604"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.reportitem"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090514"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.report.item.crosstab.core"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090603"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090615"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.chart.runtime"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090407"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.report.runtime"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090407"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gef"
+         download-size="0"
+         install-size="0"
+         version="3.6.2.v20110110-2020"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v200906151043"
+         unpack="false"/>
+
+   <plugin
+         id="com.lowagie.itext"
+         download-size="0"
+         install-size="0"
+         version="1.5.4.v20090608"/>
+
+   <plugin
+         id="org.eclipse.birt.report.engine.emitter.prototype.excel"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090601"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.birt.report.engine.fonts"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v20090615"/>
+
+   <plugin
+         id="org.eclipse.core.filebuffers"
+         download-size="0"
+         install-size="0"
+         version="3.5.100.v20100520-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.variables"
+         download-size="0"
+         install-size="0"
+         version="3.2.400.v20100505"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity"
+         download-size="0"
+         install-size="0"
+         version="1.1.2.v200906020553"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore"
+         download-size="0"
+         install-size="0"
+         version="2.5.0.v200906151043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda"
+         download-size="0"
+         install-size="0"
+         version="3.2.0.v200905220445"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.consumer"
+         download-size="0"
+         install-size="0"
+         version="3.2.0.v200906020553"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.datatools.connectivity.oda.profile"
+         download-size="0"
+         install-size="0"
+         version="3.2.0.v200906020553"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.rhino"
+         download-size="0"
+         install-size="0"
+         version="1.7.1.v20090608"/>
+
+   <plugin
+         id="org.eclipse.text"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.v20100601-1300"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator"
+         download-size="0"
+         install-size="0"
+         version="3.5.0.I20100601-0800"
+         unpack="false"/>
+
+   <plugin
+         id="javax.xml"
+         download-size="0"
+         install-size="0"
+         version="1.3.4.v200902170245"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20100505"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.sac"
+         download-size="0"
+         install-size="0"
+         version="1.3.0.v20090608"/>
+
+   <plugin
+         id="org.w3c.sac.nl_de"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20101211043401"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.w3c.sac.nl_zh"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20101211043401"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.rhino.nl_de"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20101211043401"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.mozilla.rhino.nl_zh"
+         download-size="0"
+         install-size="0"
+         version="3.6.0.v20101211043401"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench"
+         download-size="0"
+         install-size="0"
+         version="3.6.2.M20110210-1200"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.core"
+         download-size="0"
+         install-size="0"
+         version="3.5.101.R36x_v20110203-1036"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility.registry"
+         download-size="0"
+         install-size="0"
+         version="3.3.0.v20100520"
+         fragment="true"/>
+
+   <plugin
+         id="org.eclipse.core.runtime.compatibility"
+         download-size="0"
+         install-size="0"
+         version="3.2.100.v20100505"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding"
+         download-size="0"
+         install-size="0"
+         version="1.3.100.I20100601-0800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ant.core"
+         download-size="0"
+         install-size="0"
+         version="3.2.201.v20110203_r362"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.httpclient"
+         download-size="0"
+         install-size="0"
+         version="3.1.0.v201005080502"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.resolver"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.v200902170519"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xml.serializer"
+         download-size="0"
+         install-size="0"
+         version="2.7.1.v200902170519"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xerces"
+         download-size="0"
+         install-size="0"
+         version="2.9.0.v200909240008"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.cannedreports.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.settings.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.alarm.settings.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.cannedreports.isxcentral"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.cannedreports.isxcentral.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="glazedlists"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.jface.icons"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.control.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.control.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.sensors.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.sensors.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.control.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.device.control.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.compositesensors.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.202602160934"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.compositesensors.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.ivan.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.ivan.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

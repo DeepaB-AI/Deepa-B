@@ -4,6 +4,8 @@ describe("Actions demo", function ()
 it('open angular js website', function(){
     browser.get('https://posse.com') // to hit the URL
     element(by.model("river")).sendKeys("river");
+    browser.sleep(6000);
+    break: 2000; // Wait for 2 seconds before moving the mouse
     browesr.actions().mouseMove(element(by.model("londonQuery")).sendKeys("London")).perform //To move our mouse to that edit box
     browesr.actions().sendKeys(Protrcator.key.Arrow_DOWN).perform(); //After auto sug we need to move our mouse down so use arrow key down
      browesr.actions().sendKeys(Protrcator.key.ENTER).perform(); //After going down we need to enter that value

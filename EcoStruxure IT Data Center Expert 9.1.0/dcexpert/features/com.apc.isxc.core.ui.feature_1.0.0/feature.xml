@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.apc.isxc.core.ui.feature"
+      label="ISXC Core UI Feature"
+      version="1.0.0"
+      provider-name="APC"
+      os="macosx,win32"
+      ws="cocoa,win32"
+      nl="en"
+      arch="x86,x86_64">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="antlr"
+         download-size="0"
+         install-size="0"
+         version="2.7.6"
+         unpack="false"/>
+
+   <plugin
+         id="botzware_api"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="botzware_impl"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.common.requester"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.massconfig"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.ssl"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surv.common"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.util"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.varlib"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.codehaus.xstream"
+         download-size="0"
+         install-size="0"
+         version="1.4.21"/>
+
+   <plugin
+         id="stax"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+
+   <plugin
+         id="com.apc.isxc.common"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="1.3.0.v20100518-1140"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="0"
+         install-size="0"
+         version="1.0.4.v201005080501"
+         unpack="false"/>
+
+   <plugin
+         id="jspeex"
+         download-size="0"
+         install-size="0"
+         version="0.9.7"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="0"
+         install-size="0"
+         version="1.2.25"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.firmwareUpdate"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.el"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.v201004212143"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jorbis"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.xbean"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.login"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.widgetutils"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.widgetutils.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.eventsystem"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.requester"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.services"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.services.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.eventsystem.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.logging"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.threshold"
+         download-size="0"
+         install-size="0"
+         version="9.1.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.apc.isxc.surveillance.feature"
+      label="Surveillance Feature"
+      version="1.0.0"
+      provider-name="APC"
+      os="macosx,win32"
+      ws="cocoa,win32"
+      nl="en"
+      arch="x86,x86_64">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="com.apc.isxc.feature"
+         version="1.0.0"/>
+
+   <requires>
+      <import feature="com.apc.isxc.core.ui.feature" version="1.0.0"/>
+      <import feature="com.apc.isxc.feature" version="1.0.0"/>
+      <import feature="com.apc.isxc.base.feature" version="1.0.0"/>
+   </requires>
+
+   <plugin
+         id="com.apc.isxc.surveillance.model"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.model.win32"
+         os="win32"
+         ws="win32"
+         arch="x86,x86_64"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.model.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.settings.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.ui.nls"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.apc.isxc.surveillance.settings"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"
+         unpack="false"/>
+
+</feature>
